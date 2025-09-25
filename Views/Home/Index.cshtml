@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <a class="btn m-3 btn-primary btn-lg" asp-controller="Home" asp-action="Expenses">View Expenses</a>
+    <a class="btn m-3 btn-secondary btn-lg" asp-controller="Home" asp-action="CreateEditExpense">Add Expense</a>
+
+
+
+    <div class="mt-4">
+        <p class="lead display-6">
+            This is a note app for keeping track of your expenses. <br />
+            If you click on <strong>View Expenses</strong>, you will see the expenses you've recorded so far. <br />
+            If you click on <strong>Add Expense</strong>, you can enter a new expense record,
+            and you can also edit or delete existing records.
+        </p>
+    </div>
+</div>
